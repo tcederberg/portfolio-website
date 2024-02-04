@@ -141,11 +141,13 @@ button:focus {
   -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .grid__item {
-  background-color: lightgrey;
+  background-color: lightblue;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .page-header__item {
@@ -324,4 +326,25 @@ button:focus,
 .cloud-back {
   -webkit-animation: 34s cloud-move-reverse infinite alternate linear;
   animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+.media {
+  float: center;
+  width: 250px;
+  height: auto;
+  margin-right: 40px;
+}
+
+.experience {
+  font-weight: 800;
+}
+
+.contact {
+  margin-left: 25px;
+}
+
+.logo {
+  float: center;
+  width: 25px;
+  height: 25px;
 }
